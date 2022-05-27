@@ -1,0 +1,207 @@
+
+.ctn-prods{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  width: 100%;
+  height: 70vh;
+  padding-top: 8vh;
+  background-color: var(--color-white);
+}
+.ctn-card-prod{
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  width: 90vw;
+  height: 60vh;
+}
+.ctn-img-prod1{
+  width: 28vw; 
+  height: 60vh;
+  background-image: url(../assets/img/image1.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+.ctn-img-prod2{
+  width: 28vw; 
+  height: 60vh;
+  background-image: url(../assets/img/image2.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ctn-img-prod3{
+  width: 28vw; 
+  height: 60vh;
+  background-image: url(../assets/img/image3.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}  
+.txt-prod{
+  font-family: var(--font-oswald); 
+  font-size: 2.8vw;
+  font-weight: 500;
+  color: var(--color-white);
+  text-align: center; 
+}
+.prod-link{
+  text-decoration: none;
+}
+
+.ctn-sobre-loja{
+  padding-top: 20vh;
+  width: 40%;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 4vh;
+  text-align: center;
+  line-height: 3vh;
+  margin: 0 auto;
+}
+#h1-mini-oceano{
+  font-family: var(--font-oswald); 
+  color: var(--color-orange);
+  font-size: 3vw;
+  letter-spacing:0.05vw;
+}
+#h4-sobre-loja{
+  padding-top: 3vh;
+  font-family: var(--font-raleway); 
+  color: #000769;
+  font-size: 1.1vw;
+  font-weight: 400;
+}
+#txt-sobre-loja{
+  font-family: var(--font-raleway); 
+  color: #000769;
+  font-weight: 300;
+  font-size: 0.9vw;
+}
+.ctn-btn-leia-mais{
+  padding: 2vh 0 0 0;
+  align-self: center;
+}
+#btn-leia-mais{
+  text-decoration: none;
+}
+#divlink-leia-mais{
+  font-family: var(--font-raleway);
+  background-color: var(--color-orange);
+  width: 7vw;
+  height: 4vh;
+  color: #191919;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1vw;
+  border: none;
+}
+#divlink-leia-mais:hover{
+  background-color: #00076980;
+  color: var(--color-white);
+}
+
+.txt-prod11, .txt-prod12, .txt-prod21, .txt-prod22, .txt-prod31, .txt-prod32{
+  font-family: var(--font-oswald); 
+  font-size: 2.8vw;
+  font-weight: 500;
+  color: var(--color-white);
+  text-align: center; 
+}
+.txt-prod11::after {
+    content: attr(data-text11);
+    animation: fader 5s linear;
+}
+.txt-prod12::after {
+    content: attr(data-text12);
+    animation: fader 5s linear;
+}
+.txt-prod21::after {
+  content: attr(data-text21);
+  animation: fader 5s linear;
+}
+.txt-prod22::after {
+  content: attr(data-text22);
+  animation: fader 5s linear;
+}
+.txt-prod31::after {
+  content: attr(data-text31);
+  animation: fader 5s linear;
+}
+.txt-prod32::after {
+  content: attr(data-text32);
+  animation: fader 5s linear;
+}
+.h1-mini-oceano::after {
+  content: attr(data-text-h1);
+  animation: fader1 8s linear;
+  font-family: var(--font-oswald); 
+  color: var(--color-orange);
+  font-size: 3vw;
+  letter-spacing:0.05vw;
+}
+.h4-sobre-loja::after {
+  content: attr(data-text-h4);
+  animation: fader1 8s linear;
+  padding-top: 3vh;
+  font-family: var(--font-raleway); 
+  color: #000769;
+  font-size: 1.1vw;
+  font-weight: 400;
+}
+.txt-sobre-loja::after {
+  content: attr(data-text-p);
+  animation: fader1 8s linear;
+  font-family: var(--font-raleway); 
+  color: #000769;
+  font-weight: 300;
+  font-size: 0.9vw;
+}
+@keyframes fader {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    90% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fader1 {
+  0% {
+      opacity: 0;
+  }
+  40% {
+      opacity: 0;
+  }
+  50% {
+      opacity: 1;
+  }
+  90% {
+      opacity: 1;
+  }
+  100% {
+      opacity: 1;
+  }
+}

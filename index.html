@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/products.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Boxicons CDN Link -->
+  <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  <meta property="og:description" content="Desafio HTML/CSS - Site Pets" />
+  <meta property="og:url" content="https://rogeriokotsubo.github.io/desafio-pets/" />
+  <meta property="og:determiner" content="a" />
+  <meta property="og:locale" content="pt_BR" /> 
+  <title>Mini Oceano Aquarios</title>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <header>
+    <nav>
+      <div class="navbar">
+        <i class='bx bx-menu'></i>
+        <div class="logo">
+          <svg data-bbox="37.145 12 134.711 179.999" viewBox="37.145 12 134.711 179.999" height="50" width="50" xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true">
+            <g>
+                <path fill="#FFFFFF" d="M128.996 95a2.999 2.999 0 0 1-2.983-2.729 2.999 2.999 0 0 1 2.716-3.259c11.711-1.064 24.904-9.021 36.445-21.922-11.392-18.39-32.448-22.094-32.667-22.13a3 3 0 0 1 .986-5.919c1.035.173 25.509 4.482 37.985 26.941a3 3 0 0 1-.345 3.41c-17.625 20.562-33.793 24.863-41.862 25.597a3.59 3.59 0 0 1-.275.011zm-4.811-10.877V48.37a3 3 0 1 0-6 0v35.753a3 3 0 1 0 6 0zM43.144 72.206c0-22.215 21.867-45.047 29.63-52.453l7.669 13.42a3 3 0 0 0 5.21-2.976l-9.534-16.685a3 3 0 0 0-4.557-.79c-1.406 1.205-34.417 29.841-34.417 59.483a3 3 0 0 0 5.999.001zm81.041 50.055v-19.069a3 3 0 1 0-6 0v16.069H97.349a3 3 0 1 0 0 6h23.835a3 3 0 0 0 3.001-3zm-1.361 69.252a3 3 0 0 0 1.36-2.513v-47.671a3.002 3.002 0 0 0-3.948-2.846l-28.603 9.534a2.999 2.999 0 0 0-1.897 3.794 2.996 2.996 0 0 0 3.795 1.897l24.654-8.218v38.911l-13.977-6.148a3 3 0 1 0-2.416 5.492l18.185 8a3 3 0 0 0 2.847-.232zm1.063-26.349a3 3 0 0 0-3-3H97.349a3 3 0 1 0 0 6h23.538a3 3 0 0 0 3-3zm11.599-109.643a4.767 4.767 0 1 0 0 9.533 4.767 4.767 0 0 0 0-9.533zM95.085 178.736a3.001 3.001 0 0 0-.225-3.606c-12.81-14.945-16.601-34.109-10.141-51.266 5.56-14.764 17.869-25.2 32.123-27.237a3 3 0 1 0-.848-5.939c-16.423 2.346-30.559 14.249-36.89 31.062-6.032 16.02-4.138 33.549 4.898 48.569-16.5-8.465-29.193-24.336-34.837-44.101-6.066-21.244-2.35-42.488 9.941-56.828 27.131-31.652 61.343-27.625 61.688-27.581a3.007 3.007 0 0 0 3.364-2.578 3 3 0 0 0-2.577-3.37c-1.526-.204-37.705-4.588-67.03 29.625-13.606 15.874-17.776 39.193-11.155 62.38 7.238 25.348 25.288 44.815 48.283 52.076a3 3 0 0 0 3.406-1.206z"></path>
+            </g>
+          </svg>
+          <a href="#">MINI OCEANO</a>
+        </div>
+        <div class="nav-links">
+          <div class="sidebar-logo">
+            <span class="logo-name">MINI OCEANO</span>
+            <i class='bx bx-x' ></i>
+          </div>
+          <ul class="links">
+            <li><a href="#">Home</a></li>
+            <li>
+              <a href="#">Loja</a>
+              <!-- <i class='bx bxs-chevron-down loja-arrow arrow  '></i> -->
+              <ul class="loja-sub-menu sub-menu">
+                <li><a href="#">Tipos de Aquários</a></li>
+                <li><a href="#">Itens de Aquários</a></li>
+                <li><a href="#">Plantas e Decorações</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Sobre</a></li>
+            <li>
+              <a href="#">Atendimento</a>
+              <!-- <i class='bx bxs-chevron-down atendimento-arrow arrow '></i> -->
+              <ul class="atendimento-sub-menu sub-menu">
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">Envio e Retornos</a></li>
+              </ul>
+            </li>
+            <li><a href="#">Contato</a></li>
+          </ul>
+        </div>
+        <ul id="social-media-icons"> 
+          <li><a href="http://www.facebook.com/WixPortugues" target=_blank><img class="img-med" src="./assets/img/f.svg"></a></li>
+          <li><a href="https://www.youtube.com/user/Wix" target=_blank><img class="img-med" src="./assets/img/yt.png"></a></li>
+          <li><a href="https://www.instagram.com/wix" target=_blank><img class="img-med" src="./assets/img/instagram.svg"></a></li>
+        </ul>  
+  
+        <div id="ctn-cart">
+          <a href="#">
+            <svg width="25" height="25" viewBox="0 0 197.7 166">
+              <path fill="#ffffff" d="M197.9 55.9L169.9 127.4 64.5 127.4 27.6 29.8 0 29.8 0.2 16.7 36.5 16.7 73.4 114.3 160.9 114.3 183 55.9"></path>
+              <circle fill="#ffffff" cx="143.8" cy="153" r="13"></circle>
+              <circle fill="#ffffff" cx="90.8" cy="153" r="13"></circle>
+              <text fill="#ffffff" data-hook="items-count" class="LCo0H" text-anchor="middle" x="116" y="35" dy=".48em">0</text>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="page1">
+    <section id="container-main">
+      <div id="container-video"> 
+        <div id="ctn-video">
+          <video id="main-video" autoplay loop type="video/mp4">
+            <source src="https://video.wixstatic.com/video/ea71bb_d4280c9435874086b9f2ff73d96b2b16/1080p/mp4/file.mp4">
+          </video>
+          <div id="txt1-main-img"> 
+            <span>BEM-VINDO AO</span>
+            <br />
+            <span>MAIS BELO RECIFE</span>
+          </div>
+          <p id="txt2-main-img">Tudo o que você precisa para seu aquário</p>
+          <div id="ctn-btn">
+            <a id="btn-online" href="/index.html" target="_self">
+              <div id="divlink">
+                  Comprar Agora
+              </div>
+            </a>  
+          </div>  
+        </div>
+      </div>  
+    </section>
+    
+    <section class="ctn-prods">
+      <div class="ctn-card-prod">
+        <div class="ctn-img-prod1">
+          <a class="prod-link" href="#">
+            <p class="txt-prod11" data-text11="TIPOS DE"></p>
+            <p class="txt-prod12" data-text12="AQUÁRIOS"></p>
+          </a>
+        </div>
+
+        <div class="ctn-img-prod2">
+          <a class="prod-link" href="#">
+            <p class="txt-prod21" data-text21="ITENS DE"></p>
+            <p class="txt-prod22" data-text22="AQUÁRIOS"></p>
+          </a>
+        </div>
+
+        <div class="ctn-img-prod3">
+          <a class="prod-link" href="#">
+            <p class="txt-prod31" data-text31="PLANTAS E"></p>
+            <p class="txt-prod32" data-text32="DECORAÇÕES"></p>
+          </a>
+        </div>
+      </div>
+    </section>      
+    
+    <section class="ctn-sobre-loja">
+      <h1 class="h1-mini-oceano" data-text-h1="MINI OCEANO"></h1>
+      <h4 class="h4-sobre-loja" data-text-h4="A loja perfeita para completar seu aquário"></h4>
+      <p class="txt-sobre-loja" data-text-p="Sou um parágrafo. Clique aqui para editar e adicionar o seu próprio
+      texto. É fácil! Basta clicar em Editar Texto ou clicar duas vezes 
+      sobre mim para adicionar o seu conteúdo e trocar fontes. Sinta-se à 
+      vontade para arrastar e soltar em qualquer lugar da página. Sou um 
+      ótimo lugar para você contar sua história aos seus clientes.  
+      Este é um ótimo espaço para escrever um texto longo sobre a sua 
+      empresa e seus serviços. Você pode usar esse espaço para detalhar 
+      sua empresa."></p>
+
+      <div class="ctn-btn-leia-mais">
+        <a id="btn-leia-mais" href="/index.html" target="_self">
+          <div id="divlink-leia-mais">
+              Leia mais
+          </div>
+        </a>  
+      </div>
+    </section>  
+
+    <footer> 
+      <div class="ctn-footer"> 
+        <div class="ctn-txt-footer"> 
+          <h4 class="h4-footer">Siga-nos</h4>
+          <p class="p-footer">&nbsp;</p>
+          <ul id="footer-social-media-icons"> 
+            <li><a href="http://www.facebook.com/WixPortugues" target=_blank><img class="img-med1" src="./assets/img/f.svg"></a></li>
+            <li><a href="https://www.youtube.com/user/Wix" target=_blank><img class="img-med1" src="./assets/img/yt.png"></a></li>
+            <li><a href="https://www.instagram.com/wix" target=_blank><img class="img-med1" src="./assets/img/instagram.svg"></a></li>
+          </ul>  
+        </div>  
+        <div class="ctn-txt-footer"> 
+          <h4 class="h4-footer">Contato</h4>
+          <p class="p-footer">info@meusite.com</p>
+          <p class="p-footer1">(11) 3456-7890</p>
+        </div>
+        <div class="ctn-txt-footer"> 
+          <h4 class="h4-footer">Endereço</h4>
+          <p class="p-footer">Av. Bernardino de Campos, 98</p>
+          <p class="p-footer1">São Paulo - SP - 12345-678</p>
+        </div>
+      </div>  
+      <div class="ctn-copywrite"> 
+        <p class="p-footer2">&copy;2023 por Mini Oceano. Orgulhosamente criado com <a class="a-footer-copy" href="https://pt.wix.com/website-template/view/html/2283?originUrl=https%3A%2F%2Fpt.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fbusiness%2Fpets-animals&tpClick=view_button&esi=cd03ca2e-9036-4660-91e6-edc06bad5e00" target="_blank">Wix.com</a></p>
+        <p class="p-footer2">Mini Oceano Ltda. - CPF/CNPJ: 12.345.678/0000-01 - Av. Bernardino de Campos, 98 - São Paulo, SP 12345-678 - info@meusite.com - Telefone: (11) 3456-7890</p>
+      </div>
+    </footer>   
+  </main>
+
+
+  <script src="./js/script.js"></script>
+
+</body>
+</html>
