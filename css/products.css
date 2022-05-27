@@ -50,7 +50,7 @@
 }  
 .txt-prod{
   font-family: var(--font-oswald); 
-  font-size: 2.8vw;
+  font-size: 1.8vw;
   font-weight: 500;
   color: var(--color-white);
   text-align: center; 
@@ -116,7 +116,7 @@
 
 .txt-prod11, .txt-prod12, .txt-prod21, .txt-prod22, .txt-prod31, .txt-prod32{
   font-family: var(--font-oswald); 
-  font-size: 2.8vw;
+  font-size: 1.8vw;
   font-weight: 500;
   color: var(--color-white);
   text-align: center; 
@@ -179,12 +179,13 @@
     }
     50% {
         opacity: 1;
-    }
+      }
     90% {
         opacity: 1;
-    }
+      }
     100% {
         opacity: 1;
+        font-size: 1.8vw;
     }
 }
 
