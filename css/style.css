@@ -146,9 +146,9 @@ nav .navbar .links li:hover .atendimento-sub-menu{
   }
 }
 @media (max-width:800px){
-  nav{
+   /* nav{   */
     /* position: relative; */
-  }
+  /* }  */
   .navbar .bx-menu{
     display: block;
   }
